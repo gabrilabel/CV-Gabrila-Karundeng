@@ -942,3 +942,72 @@ footer .copyright span::after {
 footer .copyright span:last-child::after {
 	display: none;
 }
+
+fieldset {
+	border: none;
+}
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+	display: block;
+	height: 6rem;
+	padding: 1.5rem 0;
+	border: 0;
+	outline: none;
+	vertical-align: middle;
+	color: #313131;
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.5rem;
+	line-height: 3rem;
+	max-width: 100%;
+	background: transparent;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+textarea {
+	min-height: 25rem;
+}
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+	color: #cc005f;
+	border-bottom: 1px solid #FF0077;
+}
+label, legend {
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.4rem;
+	margin-bottom: .6rem;
+	color: #3b3b3b;
+	display: block;
+}
+input[type="checkbox"], input[type="radio"] {
+	display: inline;
+}
+label > .label-text {
+	display: inline-block;
+	margin-left: 1rem;
+	font-family: "poppins-regular", sans-serif;
+	line-height: inherit;
+}
+label > input[type="checkbox"], label > input[type="radio"] {
+	margin: 0;
+	position: relative;
+	top: .15rem;
+}
